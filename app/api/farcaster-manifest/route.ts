@@ -1,4 +1,6 @@
-{
+import { NextRequest, NextResponse } from 'next/server';
+
+const manifestJson = {
   "name": "WORK.FUN",
   "description": "Earn WORK tokens by doing simple social actions like liking, following, and reposting.",
   "version": "1",
@@ -15,4 +17,8 @@
     "payload": "eyJkb21haW4iOiJ3b3JrLWZ1bi52ZXJjZWwuYXBwIn0",
     "signature": "MHhmOWIxMDQ4NTA0YmYwYzY1NjVhNGIxYmQ4MTQwN2VjYWU4N2RlYWZhYTEyMWY3MDA2ZDg4Y2Y1MjU5NGYzMDAwN2NmMDhhOWI4MGFhYTg1OTI3ODA5YWQxMjdkODE2ZGI0YzQ5MGMxMmU2ZGVlZTQ3YzU0MmVkNTg1MzBkNmFlYjFi"
   }
+};
+
+export async function GET(req: NextRequest) {
+  return NextResponse.json(manifestJson);
 }
