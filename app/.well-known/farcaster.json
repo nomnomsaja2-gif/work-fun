@@ -1,0 +1,8 @@
+{
+  "name": "WORK.FUN",
+  "description": "Earn WORK tokens by doing simple social actions like liking, following, and reposting.",
+  "icon_url": "https://work-1buj30n71-nom321s-projects.vercel.app/images/work-logo.png",
+  "image": "https://work-1buj30n71-nom321s-projects.vercel.app/images/work-logo.png",
+  "success_url": "https://work-1buj30n71-nom321s-projects.vercel.app",
+  "error_url": "https://work-1buj30n71-nom321s-projects.vercel.app/error"
+}
