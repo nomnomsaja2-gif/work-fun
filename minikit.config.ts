@@ -1,4 +1,4 @@
-const ROOT_URL = process.env.NEXT_PUBLIC_URL || 'http://localhost:3000';
+const ROOT_URL = "https://work-fun.vercel.app";
 
 export const minikitConfig = {
   accountAssociation: {
